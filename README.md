@@ -17,5 +17,4 @@ Model-2: Built Regression model with Carbon Emission as independent variable and
 Used Model-1 forecasted Carbon Emission to forecast future Temperature Anomaly , Ocean Heat and Arctic sea ice extent
 
 Output values from Model-2 can be use to understand any anomalies by comparing against actual captured values . Critical to understand if we heading in right direction or not
-
 This model currently using monthly datapoints but this same model can be used for hourly or daily data samples as well.
