@@ -14,6 +14,10 @@ Arctic sea ice extent : Annual Arctic sea ice minimum since 1979, based on satel
 Currently using monthly datapoints but same graph an be extended to use hourly or daily datapoints as well
 
 
+
+![image](https://user-images.githubusercontent.com/11903851/164027803-72a04ad8-dfb6-4506-9598-d0e4a1c044c7.png)
+
+
 # Stage-2 : Used tigergrpah as data source to Regression model post understanding relationship between different datapoints mentioned in stage-1
 Model-1: Timeseries forecast to predict Carbon Emission based on historical datapoints 
 
