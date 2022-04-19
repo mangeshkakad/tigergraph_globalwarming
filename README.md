@@ -30,3 +30,12 @@ This model currently using monthly datapoints but this same model can be used fo
 Run TigerGraph_Runner.ipynb to build graph and upload data
 
 Run MachineLearning_Model.py to build model and forecast data
+
+    graphName = "Global_Climate_Change" ----- Name of Graph
+    Query_Name = "getDataForMLModelv6" ---- Name of Query to extract data to start building Machine Learning Model 
+    forecast_co2_timeseries = False    ----- Flag True or False to create timeseries forecast for Carbon Emission
+    forcast_Arctic_Sea_Ice_Extent = False  ----- Flag True or False to create model and forecast for Arctic Sea Ice Extent
+    forcast_Ocean_Heat = False    ----- Flag True or False to create model and forecast for Ocean Heat
+    forcast_Temperature_Anomaly = False   ----- Flag True or False to create model and forecast for Temperature Anomaly
+    build_model_flag = False   ----- Flag True or False to build the model or just execute
+    delete_flag = True    ----- Flag True or False to delete the forecasted data points from Graph
