@@ -21,6 +21,9 @@ Currently using monthly datapoints but same graph an be extended to use hourly o
 # Stage-2 : Used tigergrpah as data source to Regression model post understanding relationship between different datapoints mentioned in stage-1
 Model-1: Timeseries forecast to predict Carbon Emission based on historical datapoints 
 
+![image](https://user-images.githubusercontent.com/11903851/164051587-e6bf6666-a8a0-4037-90ce-969e87f22ebd.png)
+
+
 Model-2: Built Regression model with Carbon Emission as independent variable and Temperature Anomaly , Ocean Heat and Arctic sea ice extent as dependent variables
 
 Used Model-1 forecasted Carbon Emission to forecast future Temperature Anomaly , Ocean Heat and Arctic sea ice extent
