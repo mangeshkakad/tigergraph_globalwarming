@@ -24,3 +24,9 @@ Used Model-1 forecasted Carbon Emission to forecast future Temperature Anomaly ,
 Output values from Model-2 can be use to understand any anomalies by comparing against actual captured values . Critical to understand if we heading in right direction or not
 
 This model currently using monthly datapoints but this same model can be used for hourly or daily data samples as well.
+
+# Execution Flow
+
+Run TigerGraph_Runner.ipynb to build graph and upload data
+
+Run MachineLearning_Model.py to build model and forecast data
