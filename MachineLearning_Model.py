@@ -109,7 +109,7 @@ def build_model(model_dataframe,forecast_type):
     #print(y_pred)
 
     df = pd.DataFrame({'Actual': y_test.flatten(), 'Predicted': y_pred.flatten()})
-    df.plot(kind='line', figsize=(16, 10))
+    df.plot(kind='line', figsize=(16, 10),marker='o')
     plt.grid(which='major', linestyle='-', linewidth='0.5', color='green')
     plt.grid(which='minor', linestyle=':', linewidth='0.5', color='black')
     plt.show()
@@ -144,6 +144,12 @@ def build_co2_model(model_dataframe,graphName,token):
     steps = 15
     validation_predictions = forecaster.predict(steps=steps)
     print('Root Mean Squared Error:', np.sqrt(metrics.mean_squared_error(data_test['co_value'], validation_predictions[:-3])))
+    y = [1,2,3,4,5,6,7,8,9,10,11,12]
+    plt.plot(y,data_test['co_value'],label = "Actual",marker = 'o')
+    plt.plot(y,validation_predictions[:-3],label = "Predicted",marker = 'o')
+    plt.ylim(200,500)
+    plt.legend()
+    plt.show()
     forecast_df = validation_predictions[-3:]
     last_year = int(model_dataframe[-1:]['Year_in'][0])
     last_month = int(model_dataframe[-1:]['Month_in'][0])
@@ -230,8 +236,8 @@ def delete_records(year,months,graphName,token):
 def main_runner():
     graphName = "Global_Climate_Change"
     Query_Name = "getDataForMLModelv6"
-    forecast_co2_timeseries = True
-    forcast_Arctic_Sea_Ice_Extent = False
+    forecast_co2_timeseries = False
+    forcast_Arctic_Sea_Ice_Extent = True
     forcast_Ocean_Heat = False
     forcast_Temperature_Anomaly = False
     build_model_flag = True
