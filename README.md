@@ -48,6 +48,6 @@ Run MachineLearning_Model.py to build model and forecast data
     delete_flag = True    ----- Flag True or False to delete the forecasted data points from Graph
     
 ![image](https://user-images.githubusercontent.com/11903851/164052038-afce11d7-0713-42bb-8efc-0108a5d3e580.png)
-![image](https://user-images.githubusercontent.com/11903851/164052205-0a2704d9-b779-4b0a-81d6-a827e9abe23f.png)
+![image](https://user-images.githubusercontent.com/11903851/164052361-9f037df0-afc0-4cfd-9565-adffd86faa41.png)
 ![image](https://user-images.githubusercontent.com/11903851/164052075-d34fbf64-b38e-45bb-85cb-5090d9bb7bf1.png)
 
