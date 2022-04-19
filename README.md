@@ -50,6 +50,3 @@ Run MachineLearning_Model.py to build model and forecast data
     ![image](https://user-images.githubusercontent.com/11903851/164051733-125fe7ff-1f33-4770-9f11-55b348258a07.png)
     ![image](https://user-images.githubusercontent.com/11903851/164051765-530ee7a6-02ec-4219-88b4-0fb7e8fc2047.png)
     ![image](https://user-images.githubusercontent.com/11903851/164051811-96697771-c5d5-40c3-8688-3ae862953944.png)
-
-
-
