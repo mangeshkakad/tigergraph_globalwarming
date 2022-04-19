@@ -30,7 +30,7 @@ def tg_connection():
     # Connection parameters
     hostName = "https://e58ef4c275ea43059948c09089d35d23.i.tgcloud.io/"
     userName = "tigergraph"
-    password = "Nescafe90"
+    password = ""
 
     conn = tg.TigerGraphConnection(host=hostName, username=userName, password=password)
 
